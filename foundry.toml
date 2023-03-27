@@ -1,0 +1,11 @@
+[profile.default]
+src = 'src'
+out = 'out'
+solc= '0.8.7'
+libs = ["node_modules", "lib"]
+remappings = [
+    'eth-gas-reporter/=node_modules/eth-gas-reporter/',
+    'hardhat/=node_modules/hardhat/',
+]
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
